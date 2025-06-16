@@ -20,7 +20,7 @@ $(document).ready(function() {
     });
     
     // Add to cart functionality
-    $('.add-to-cart, .add-to-cart-btn').click(function(e) {
+    $('.add-to-cart, .add-to-cart-btn, .add-cart-btn').click(function(e) {
         e.preventDefault();
         
         const productId = $(this).data('id');

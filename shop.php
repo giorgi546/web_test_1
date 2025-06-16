@@ -927,18 +927,6 @@ $categories = $cat_stmt->fetchAll();
                 priceTimeout = setTimeout(applyFilters, 1000);
             });
 
-            // Add to cart functionality
-            $('.add-cart-btn, .add-to-cart').click(function(e) {
-                e.preventDefault();
-                const productId = $(this).data('id');
-                
-                if (!productId) {
-                    showAlert('Invalid product ID', 'error');
-                    return;
-                }
-                
-                addToCart(productId, 1);
-            });
 
             // Quick view functionality
             $('.quick-view').click(function(e) {
