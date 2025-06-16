@@ -11,7 +11,7 @@ $stats['products'] = $stmt->fetch()['total'];
 
 // Total customers
 $stmt = $db->prepare("SELECT COUNT(*) as total FROM users WHERE role = 'customer'");
-$stmt-  >execute();
+$stmt->execute();
 $stats['customers'] = $stmt->fetch()['total'];
 
 // Total orders
