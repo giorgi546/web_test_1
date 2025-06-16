@@ -13,7 +13,7 @@ define('DB_PASS', '');
 define('DB_NAME', 'shopping_website');
 
 // Site Configuration
-define('SITE_URL', 'http://localhost/shopping-website');
+define('SITE_URL', 'http://localhost/web_test_1');
 define('SITE_NAME', 'ShopMaster');
 define('ADMIN_EMAIL', 'admin@shopmaster.com');
 
