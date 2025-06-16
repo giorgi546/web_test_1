@@ -228,7 +228,7 @@ $categories = $cat_stmt->fetchAll();
         }
         
         .price-inputs input {
-            flex: 1;
+            width: 100px;
             padding: 0.75rem;
             border: 2px solid #E5E7EB;
             border-radius: 8px;
